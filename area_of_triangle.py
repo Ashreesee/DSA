@@ -19,3 +19,12 @@ height = input("Enter the height value: ")
 area = float(base) * int(height) / 2
 print("Area of triangle: ", area)
 
+#area of rectangle
+
+def area_of_rec(length, width) :
+    return length * width
+
+length = 3
+width = 7
+arearec = area_of_rec(length, width)
+print(arearec)

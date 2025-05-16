@@ -6,6 +6,8 @@ numbers = ["273","32","372","754"]
 largest = largest_number(numbers)
 print("The largest number is: ", largest)
 
+# smallest number
+
 def smallest_number(numbers) :
     int_numbers = [int(num) for num in numbers]
     return min(int_numbers)

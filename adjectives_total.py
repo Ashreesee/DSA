@@ -21,3 +21,11 @@ name = "Mubashir"
 condition = greeting(name)
 print(condition)
 
+# Another greeting logic
+
+def greet(name) :
+    return f'"Hello {name}!"'
+
+name =  "Anisha"
+result = greet(name)
+print(result)
