@@ -65,3 +65,19 @@ print(condition)
 num = 2
 condition = number_equal_to_7(num)
 print(condition)
+
+def check_equals(lst1, lst2):
+	if lst1 == lst2:
+		return True
+	else:
+		return False
+     
+lst1 = [1]
+lst2 = [1]
+logic = check_equals(lst1, lst2)
+print(logic)
+
+lst1 = [1]
+lst2 = [3]
+logic = check_equals(lst1, lst2)
+print(logic)
